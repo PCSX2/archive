@@ -1,0 +1,4 @@
+builds/
+*.7z
+*.zip
+.env
