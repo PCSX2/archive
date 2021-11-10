@@ -1,5 +1,1375 @@
 [
   {
+    "fileName": "pcsx2-v1.7.0-dev-1806-gc1fea5bc16-windows-x86.7z",
+    "versionNumber": "v1.7.1806",
+    "commitAuthor": "Silent",
+    "commitFullSha": "c1fea5bc162f16c840dea23bdb8e1fdd34a01d22",
+    "commitMessage": "GSTexture11::Save: Preserve the original pointers for a RAII Unmap\n\nFixes a regression from WIL migration, Unmap was called on\nmutated pointers.",
+    "commitAuthoredDate": "2021-09-22T07:46:48Z",
+    "commitCommitterDate": "2021-09-25T18:32:10Z",
+    "associatedPullRequests": [
+      {
+        "title": "Fix regressions from WIL migration",
+        "url": "https://github.com/PCSX2/pcsx2/pull/4802"
+      }
+    ]
+  },
+  {
+    "fileName": "pcsx2-v1.7.0-dev-1807-g5a9aeb165f-windows-x86.7z",
+    "versionNumber": "v1.7.1807",
+    "commitAuthor": "Mrlinkwii",
+    "commitFullSha": "5a9aeb165f5b7b7df645f677ea87ade88ac6e0ee",
+    "commitMessage": "GameDB:add 'VUKickstartHack' to SOCOM II entries",
+    "commitAuthoredDate": "2021-09-26T01:30:12Z",
+    "commitCommitterDate": "2021-09-26T02:20:43Z",
+    "associatedPullRequests": [
+      {
+        "title": "GameDB:add 'VUKickstartHack' to SOCOM II entries",
+        "url": "https://github.com/PCSX2/pcsx2/pull/4830"
+      }
+    ]
+  },
+  {
+    "fileName": "pcsx2-v1.7.0-dev-1811-g963f071a70-windows-x86.7z",
+    "versionNumber": "v1.7.1811",
+    "commitAuthor": "lightningterror",
+    "commitFullSha": "963f071a70884345c4d0fd8fb63fbc8fa2e42c40",
+    "commitMessage": "GS-d3d11: Cleanup GSDevice11 a bit.\n\nUse const if possible, declare and initialize HRESULT at the same time\nwhen possible.",
+    "commitAuthoredDate": "2021-09-18T15:54:32Z",
+    "commitCommitterDate": "2021-09-26T12:09:43Z",
+    "associatedPullRequests": [
+      {
+        "title": "GS: Cleanup GSDevice common, ogl, d3d11.",
+        "url": "https://github.com/PCSX2/pcsx2/pull/4740"
+      }
+    ]
+  },
+  {
+    "fileName": "pcsx2-v1.7.0-dev-1812-gdef04c2524-windows-x86.7z",
+    "versionNumber": "v1.7.1812",
+    "commitAuthor": "lightningterror",
+    "commitFullSha": "def04c2524cbc231625ff46ee345ea2cd7c6b300",
+    "commitMessage": "pad-linux: Update to latest controller database.",
+    "commitAuthoredDate": "2021-09-26T12:16:04Z",
+    "commitCommitterDate": "2021-09-26T12:16:04Z",
+    "associatedPullRequests": []
+  },
+  {
+    "fileName": "pcsx2-v1.7.0-dev-1813-g954688a38d-windows-x86.7z",
+    "versionNumber": "v1.7.1813",
+    "commitAuthor": "Mrlinkwii",
+    "commitFullSha": "954688a38da291a6087c552e2307ae62483054b5",
+    "commitMessage": "Docs: improve  documentation  for Gameindex.md\n\nDocs: improve  documentation  for Gameindex.md",
+    "commitAuthoredDate": "2021-09-24T14:47:06Z",
+    "commitCommitterDate": "2021-09-26T15:01:12Z",
+    "associatedPullRequests": [
+      {
+        "title": "Docs: improve  documentation  for GameIndex.md",
+        "url": "https://github.com/PCSX2/pcsx2/pull/4821"
+      }
+    ]
+  },
+  {
+    "fileName": "pcsx2-v1.7.0-dev-1814-g71b2c17e2c-windows-x86.7z",
+    "versionNumber": "v1.7.1814",
+    "commitAuthor": "Silent",
+    "commitFullSha": "71b2c17e2c828df664cf85c5acc2041709d7e498",
+    "commitMessage": "SPU2: Refactor SndOut_XAudio2.cpp",
+    "commitAuthoredDate": "2021-09-25T20:51:28Z",
+    "commitCommitterDate": "2021-09-26T15:06:40Z",
+    "associatedPullRequests": [
+      {
+        "title": "SPU2: Refactor SndOut_XAudio2.cpp",
+        "url": "https://github.com/PCSX2/pcsx2/pull/4829"
+      }
+    ]
+  },
+  {
+    "fileName": "pcsx2-v1.7.0-dev-1815-g485e514409-windows-x86.7z",
+    "versionNumber": "v1.7.1815",
+    "commitAuthor": "Mrlinkwii",
+    "commitFullSha": "485e5144091480c2daf578a0c0c9be7a1fc33501",
+    "commitMessage": "SPU2:fix Wsign-compare warning\n\nSPU2:fix Wsign-compare warning",
+    "commitAuthoredDate": "2021-09-26T15:07:00Z",
+    "commitCommitterDate": "2021-09-26T15:47:18Z",
+    "associatedPullRequests": [
+      {
+        "title": "SPU2:fix Wsign-compare warning",
+        "url": "https://github.com/PCSX2/pcsx2/pull/4833"
+      }
+    ]
+  },
+  {
+    "fileName": "pcsx2-v1.7.0-dev-1816-gcd22a1d00d-windows-x86.7z",
+    "versionNumber": "v1.7.1816",
+    "commitAuthor": "Ty Lamontagne",
+    "commitFullSha": "cd22a1d00dfc9e08cf3f5ee8fecd6af9677942b5",
+    "commitMessage": "GS-ogl: Fix regression that broke linux HW mode",
+    "commitAuthoredDate": "2021-09-26T15:59:37Z",
+    "commitCommitterDate": "2021-09-26T16:05:04Z",
+    "associatedPullRequests": [
+      {
+        "title": "GS-ogl: Fix regression that broke linux HW mode",
+        "url": "https://github.com/PCSX2/pcsx2/pull/4835"
+      }
+    ]
+  },
+  {
+    "fileName": "pcsx2-v1.7.0-dev-1819-g39328c5c66-windows-x86.7z",
+    "versionNumber": "v1.7.1819",
+    "commitAuthor": "TheLastRar",
+    "commitFullSha": "39328c5c66c56862ec51454e905fdd185ec8121a",
+    "commitMessage": "DEV9: Clang format tap-win32",
+    "commitAuthoredDate": "2021-09-26T15:38:49Z",
+    "commitCommitterDate": "2021-09-26T16:14:40Z",
+    "associatedPullRequests": [
+      {
+        "title": "DEV9: Auto Gateway Fix for winPcap backend",
+        "url": "https://github.com/PCSX2/pcsx2/pull/4834"
+      }
+    ]
+  },
+  {
+    "fileName": "pcsx2-v1.7.0-dev-1820-g1f31edf65c-windows-x86.7z",
+    "versionNumber": "v1.7.1820",
+    "commitAuthor": "Ty Lamontagne",
+    "commitFullSha": "1f31edf65c96033050b93615f601bae9485b7618",
+    "commitMessage": "Perf: Fix missing include",
+    "commitAuthoredDate": "2021-09-26T14:54:53Z",
+    "commitCommitterDate": "2021-09-26T16:26:57Z",
+    "associatedPullRequests": [
+      {
+        "title": "Perf: Fix missing include breaking builds with USE_VTUNE enabled",
+        "url": "https://github.com/PCSX2/pcsx2/pull/4832"
+      }
+    ]
+  },
+  {
+    "fileName": "pcsx2-v1.7.0-dev-1825-gbe9587d520-windows-x86.7z",
+    "versionNumber": "v1.7.1825",
+    "commitAuthor": "TheLastRar",
+    "commitFullSha": "be9587d52003f555ef94f9fe75849b2021ad9944",
+    "commitMessage": "DEV9: Reuse variable in internal server",
+    "commitAuthoredDate": "2021-05-11T07:32:02Z",
+    "commitCommitterDate": "2021-09-26T16:56:42Z",
+    "associatedPullRequests": [
+      {
+        "title": "DEV9: Add Internal DNS server",
+        "url": "https://github.com/PCSX2/pcsx2/pull/4220"
+      }
+    ]
+  },
+  {
+    "fileName": "pcsx2-v1.7.0-dev-1827-g21c6bb6b59-windows-x86.7z",
+    "versionNumber": "v1.7.1827",
+    "commitAuthor": "lightningterror",
+    "commitFullSha": "21c6bb6b59568ccf1bd75fdc39a54e5d99d301c0",
+    "commitMessage": "SourceLog: Try to fix Wreorder warnings.",
+    "commitAuthoredDate": "2021-09-26T13:17:14Z",
+    "commitCommitterDate": "2021-09-26T18:42:12Z",
+    "associatedPullRequests": [
+      {
+        "title": "Core: Try to fix Wreorder warnings.",
+        "url": "https://github.com/PCSX2/pcsx2/pull/4831"
+      }
+    ]
+  },
+  {
+    "fileName": "pcsx2-v1.7.0-dev-1828-g48eee328b9-windows-x86.7z",
+    "versionNumber": "v1.7.1828",
+    "commitAuthor": "Mrlinkwii",
+    "commitFullSha": "48eee328b9aed2eef037c4e7f78cac562b422fad",
+    "commitMessage": "UI: Hide Synchronous GS in release builds (#4838)\n\nUI: make ' Synchronized MTGS'  UI settings exclusive to debug/devel",
+    "commitAuthoredDate": "2021-09-28T11:11:12Z",
+    "commitCommitterDate": "2021-09-28T11:11:12Z",
+    "associatedPullRequests": [
+      {
+        "title": "UI: Make ' Synchronized MTGS' UI settings exclusive to debug/devel",
+        "url": "https://github.com/PCSX2/pcsx2/pull/4838"
+      }
+    ]
+  },
+  {
+    "fileName": "pcsx2-v1.7.0-dev-1829-gd53171e20f-windows-x86.7z",
+    "versionNumber": "v1.7.1829",
+    "commitAuthor": "lightningterror",
+    "commitFullSha": "d53171e20f42c3a7b2e105088e40df2096f8bc55",
+    "commitMessage": "ci-mac: Bump macos version to 11.",
+    "commitAuthoredDate": "2021-09-28T20:37:23Z",
+    "commitCommitterDate": "2021-09-29T01:14:29Z",
+    "associatedPullRequests": [
+      {
+        "title": "ci-mac: Bump macos version to 11.",
+        "url": "https://github.com/PCSX2/pcsx2/pull/4840"
+      }
+    ]
+  },
+  {
+    "fileName": "pcsx2-v1.7.0-dev-1832-ge6728d9d55-windows-x86.7z",
+    "versionNumber": "v1.7.1832",
+    "commitAuthor": "Mrlinkwii",
+    "commitFullSha": "e6728d9d551a64cc128b428c99ecb26cbdf41e3c",
+    "commitMessage": "Docs : add 'VUOverflowHack' to GameIndex documentation and corrections",
+    "commitAuthoredDate": "2021-09-29T10:26:00Z",
+    "commitCommitterDate": "2021-09-29T16:41:08Z",
+    "associatedPullRequests": [
+      {
+        "title": "Docs : add 'VUOverflowHack' to GameIndex documentation and some corrections",
+        "url": "https://github.com/PCSX2/pcsx2/pull/4846"
+      }
+    ]
+  },
+  {
+    "fileName": "pcsx2-v1.7.0-dev-1834-ga25dc9c38c-windows-x86.7z",
+    "versionNumber": "v1.7.1834",
+    "commitAuthor": "lightningterror",
+    "commitFullSha": "a25dc9c38cfcb0feb63cb1ce454f14ce4e8806f5",
+    "commitMessage": "ICore: Cleanup Wsign-compare warnings.",
+    "commitAuthoredDate": "2021-09-26T19:28:13Z",
+    "commitCommitterDate": "2021-09-29T23:07:59Z",
+    "associatedPullRequests": [
+      {
+        "title": "Core: Fix some Wsign-compare warnings, fix Wimplicit-fallthrough warning",
+        "url": "https://github.com/PCSX2/pcsx2/pull/4837"
+      }
+    ]
+  },
+  {
+    "fileName": "pcsx2-v1.7.0-dev-1835-g384f87b89c-windows-x86.7z",
+    "versionNumber": "v1.7.1835",
+    "commitAuthor": "lightningterror",
+    "commitFullSha": "384f87b89c06160a27bb8acfd02156b3ecf61383",
+    "commitMessage": "locales: Fix '\\v' escape sequence warnings.",
+    "commitAuthoredDate": "2021-09-29T23:50:09Z",
+    "commitCommitterDate": "2021-09-30T00:15:43Z",
+    "associatedPullRequests": [
+      {
+        "title": "locales: Fix '\\v' escape sequence warnings.",
+        "url": "https://github.com/PCSX2/pcsx2/pull/4848"
+      }
+    ]
+  },
+  {
+    "fileName": "pcsx2-v1.7.0-dev-1836-gc3c15a95c4-windows-x86.7z",
+    "versionNumber": "v1.7.1836",
+    "commitAuthor": "Tokman5",
+    "commitFullSha": "c3c15a95c48cb218aeeb8e6548a1d742892d9ddd",
+    "commitMessage": "Use GetCheatsFolder() to check the path correctly when non-default folder is set.",
+    "commitAuthoredDate": "2021-09-02T07:35:36Z",
+    "commitCommitterDate": "2021-09-30T09:00:56Z",
+    "associatedPullRequests": [
+      {
+        "title": "Fix Patch file path check when default setting is not used",
+        "url": "https://github.com/PCSX2/pcsx2/pull/4704"
+      }
+    ]
+  },
+  {
+    "fileName": "pcsx2-v1.7.0-dev-1837-g42d730c80f-windows-x86.7z",
+    "versionNumber": "v1.7.1837",
+    "commitAuthor": "jackun",
+    "commitFullSha": "42d730c80fee1731ba3006fb28ea7adfed431f62",
+    "commitMessage": "USB: dshow: Initialize multi-threaded COM libs",
+    "commitAuthoredDate": "2021-09-29T16:15:12Z",
+    "commitCommitterDate": "2021-09-30T19:49:56Z",
+    "associatedPullRequests": [
+      {
+        "title": "USB: dshow: Initialize multi-threaded COM libs",
+        "url": "https://github.com/PCSX2/pcsx2/pull/4845"
+      }
+    ]
+  },
+  {
+    "fileName": "pcsx2-v1.7.0-dev-1838-g9abaa1adf6-windows-x86.7z",
+    "versionNumber": "v1.7.1838",
+    "commitAuthor": "Connor McLaughlin",
+    "commitFullSha": "9abaa1adf684645d4b0a4cbcfc9959031d0cc087",
+    "commitMessage": "Common/Mutex: Fix compiling without wxUSE_GUI",
+    "commitAuthoredDate": "2021-10-01T05:59:33Z",
+    "commitCommitterDate": "2021-10-01T09:06:09Z",
+    "associatedPullRequests": [
+      {
+        "title": "Common/Mutex: Fix compiling without wxUSE_GUI",
+        "url": "https://github.com/PCSX2/pcsx2/pull/4854"
+      }
+    ]
+  },
+  {
+    "fileName": "pcsx2-v1.7.0-dev-1839-g6ff46a795f-windows-x86.7z",
+    "versionNumber": "v1.7.1839",
+    "commitAuthor": "Connor McLaughlin",
+    "commitFullSha": "6ff46a795fc26d47f6f374dd52c2916ae4619e79",
+    "commitMessage": "Common/StringHelpers: Fix printing of 64-bit pointers",
+    "commitAuthoredDate": "2021-10-01T00:13:22Z",
+    "commitCommitterDate": "2021-10-01T11:10:19Z",
+    "associatedPullRequests": [
+      {
+        "title": "Common/StringHelpers: Fix printing of 64-bit pointers",
+        "url": "https://github.com/PCSX2/pcsx2/pull/4856"
+      }
+    ]
+  },
+  {
+    "fileName": "pcsx2-v1.7.0-dev-1840-ge0caacfa6f-windows-x86.7z",
+    "versionNumber": "v1.7.1840",
+    "commitAuthor": "lightningterror",
+    "commitFullSha": "e0caacfa6f510bf4ae839341722eba700d9eb27d",
+    "commitMessage": "GS-hw: Don't write clamped depth test value to depth buffer when ZMSK is enabled.\n\nFixes missing shadows in Kingdom Hearts: Chain of Memories.",
+    "commitAuthoredDate": "2021-09-30T23:22:37Z",
+    "commitCommitterDate": "2021-10-01T11:25:49Z",
+    "associatedPullRequests": [
+      {
+        "title": "GS-hw: Don't write clamped depth test value to depth buffer when ZMSK is enabled.",
+        "url": "https://github.com/PCSX2/pcsx2/pull/4850"
+      }
+    ]
+  },
+  {
+    "fileName": "pcsx2-v1.7.0-dev-1841-g97b94acd86-windows-x86.7z",
+    "versionNumber": "v1.7.1841",
+    "commitAuthor": "Connor McLaughlin",
+    "commitFullSha": "97b94acd866385fe79d700c1532539cc160ef9f3",
+    "commitMessage": "CDVD: Fix possible uncaught exception in CheckDiskTypeFS",
+    "commitAuthoredDate": "2021-10-01T05:48:04Z",
+    "commitCommitterDate": "2021-10-01T12:26:08Z",
+    "associatedPullRequests": [
+      {
+        "title": "CDVD: Fix possible uncaught exception in CheckDiskTypeFS",
+        "url": "https://github.com/PCSX2/pcsx2/pull/4853"
+      }
+    ]
+  },
+  {
+    "fileName": "pcsx2-v1.7.0-dev-1842-g2af8cde40d-windows-x86.7z",
+    "versionNumber": "v1.7.1842",
+    "commitAuthor": "refractionpcsx2",
+    "commitFullSha": "2af8cde40d9f7cb13d21c4f8ff69120729b43365",
+    "commitMessage": "GIF: Correct GIF FIFO timing logic",
+    "commitAuthoredDate": "2021-10-01T21:25:09Z",
+    "commitCommitterDate": "2021-10-01T21:25:09Z",
+    "associatedPullRequests": []
+  },
+  {
+    "fileName": "pcsx2-v1.7.0-dev-1845-g8e1470f637-windows-x86.7z",
+    "versionNumber": "v1.7.1845",
+    "commitAuthor": "Connor McLaughlin",
+    "commitFullSha": "8e1470f637d66658f0e43de374d66d966f4808c1",
+    "commitMessage": "iR5900: Use fastjmp instead of longjmp",
+    "commitAuthoredDate": "2021-09-25T01:07:51Z",
+    "commitCommitterDate": "2021-10-01T22:30:39Z",
+    "associatedPullRequests": [
+      {
+        "title": "EE: Fix JIT exits on 64-bit Windows",
+        "url": "https://github.com/PCSX2/pcsx2/pull/4822"
+      }
+    ]
+  },
+  {
+    "fileName": "pcsx2-v1.7.0-dev-1848-g2241e635c6-windows-x86.7z",
+    "versionNumber": "v1.7.1848",
+    "commitAuthor": "Connor McLaughlin",
+    "commitFullSha": "2241e635c63c8f8fe0d08d9e64f1c46659e58702",
+    "commitMessage": "gui: Use uintptr_t for storing numbers in pointers",
+    "commitAuthoredDate": "2021-10-01T07:22:33Z",
+    "commitCommitterDate": "2021-10-02T02:45:12Z",
+    "associatedPullRequests": [
+      {
+        "title": "Fix some compile warnings spewed by MSVC x64",
+        "url": "https://github.com/PCSX2/pcsx2/pull/4855"
+      }
+    ]
+  },
+  {
+    "fileName": "pcsx2-v1.7.0-dev-1852-g0cc8d402d6-windows-x86.7z",
+    "versionNumber": "v1.7.1852",
+    "commitAuthor": "TellowKrinkle",
+    "commitFullSha": "0cc8d402d6412055840c747bbd9f1409504df34d",
+    "commitMessage": "GHActions: Enable partial LTO",
+    "commitAuthoredDate": "2021-09-02T03:43:08Z",
+    "commitCommitterDate": "2021-10-02T03:04:42Z",
+    "associatedPullRequests": [
+      {
+        "title": "Add partial LTO to CMake",
+        "url": "https://github.com/PCSX2/pcsx2/pull/4818"
+      }
+    ]
+  },
+  {
+    "fileName": "pcsx2-v1.7.0-dev-1876-g8476fc3b5a-windows-x86.7z",
+    "versionNumber": "v1.7.1876",
+    "commitAuthor": "refractionpcsx2",
+    "commitFullSha": "8476fc3b5af8668c15843c9a649810bf5256ac0c",
+    "commitMessage": "CDVD: Implement correct SpindleCtrl handling\n\nSemi decouple end of CDVD DMA's\nFix alternative reading method for reading not picking the correct speeds for DVD's",
+    "commitAuthoredDate": "2021-09-28T18:14:55Z",
+    "commitCommitterDate": "2021-10-02T03:47:11Z",
+    "associatedPullRequests": [
+      {
+        "title": "CDVD: Implement correct SpindleCtrl handling",
+        "url": "https://github.com/PCSX2/pcsx2/pull/4839"
+      }
+    ]
+  },
+  {
+    "fileName": "pcsx2-v1.7.0-dev-1877-ge68fa34372-windows-x86.7z",
+    "versionNumber": "v1.7.1877",
+    "commitAuthor": "TellowKrinkle",
+    "commitFullSha": "e68fa343722c86dfd1a0ee269cc94e89691f137e",
+    "commitMessage": "core: Force-include pch on vs\n\nCMake does this by default.  This way we can make non-pch builds not take forever by only including what's required instead of the entire pch",
+    "commitAuthoredDate": "2021-05-07T07:45:55Z",
+    "commitCommitterDate": "2021-10-02T03:58:27Z",
+    "associatedPullRequests": [
+      {
+        "title": "Force-include pch on vs",
+        "url": "https://github.com/PCSX2/pcsx2/pull/4424"
+      }
+    ]
+  },
+  {
+    "fileName": "pcsx2-v1.7.0-dev-1881-g603537719e-windows-x86.7z",
+    "versionNumber": "v1.7.1881",
+    "commitAuthor": "TellowKrinkle",
+    "commitFullSha": "603537719eac6a3391174f10b3b9f0927743d05b",
+    "commitMessage": "GS: Switch SW renderer statistics back to rdtsc\n\nGetCPUTicks can be pretty low resolution on some systems",
+    "commitAuthoredDate": "2021-09-11T07:10:06Z",
+    "commitCommitterDate": "2021-10-02T04:01:19Z",
+    "associatedPullRequests": [
+      {
+        "title": "Improved stats printout from sw renderer",
+        "url": "https://github.com/PCSX2/pcsx2/pull/4757"
+      }
+    ]
+  },
+  {
+    "fileName": "pcsx2-v1.7.0-dev-1882-g5e481951ea-windows-x86.7z",
+    "versionNumber": "v1.7.1882",
+    "commitAuthor": "lightningterror",
+    "commitFullSha": "5e481951ea9f3ecb5d39b77e8e213239fce2c687",
+    "commitMessage": "GS: Cleanup ini ranges for some values.\n\nUse clamp instead of min max for OSD and Shade Boost.\nDon't allow negative value for upscale multiplier.",
+    "commitAuthoredDate": "2021-10-01T22:35:08Z",
+    "commitCommitterDate": "2021-10-02T15:59:39Z",
+    "associatedPullRequests": [
+      {
+        "title": "GS: Cleanup ini ranges for some values.",
+        "url": "https://github.com/PCSX2/pcsx2/pull/4859"
+      }
+    ]
+  },
+  {
+    "fileName": "pcsx2-v1.7.0-dev-1883-g3fdc32d9d7-windows-x86.7z",
+    "versionNumber": "v1.7.1883",
+    "commitAuthor": "Ty Lamontagne",
+    "commitFullSha": "3fdc32d9d76b6a1d71ac13e131ef58fcd6cd33b1",
+    "commitMessage": "Debugger: fix Goto in Disasm option for memory view \n\nWas I drunk?",
+    "commitAuthoredDate": "2021-10-02T20:36:27Z",
+    "commitCommitterDate": "2021-10-02T21:04:11Z",
+    "associatedPullRequests": [
+      {
+        "title": "Debugger: Fix Goto in Disasm option for memory view",
+        "url": "https://github.com/PCSX2/pcsx2/pull/4865"
+      }
+    ]
+  },
+  {
+    "fileName": "pcsx2-v1.7.0-dev-1885-g1e703286f0-windows-x86.7z",
+    "versionNumber": "v1.7.1885",
+    "commitAuthor": "Connor McLaughlin",
+    "commitFullSha": "1e703286f04b2ea32f1528abe817ae50b94fee5e",
+    "commitMessage": "Config: Convert MemoryCardType to an enum class",
+    "commitAuthoredDate": "2021-10-02T09:47:10Z",
+    "commitCommitterDate": "2021-10-03T03:44:16Z",
+    "associatedPullRequests": [
+      {
+        "title": "Config: Fix folder memory cards initial load",
+        "url": "https://github.com/PCSX2/pcsx2/pull/4861"
+      }
+    ]
+  },
+  {
+    "fileName": "pcsx2-v1.7.0-dev-1887-g4fc8a588ed-windows-x86.7z",
+    "versionNumber": "v1.7.1887",
+    "commitAuthor": "Connor McLaughlin",
+    "commitFullSha": "4fc8a588ed56556b02d62eb510117b16850d9226",
+    "commitMessage": "Wx: clang-format AppConfig.cpp",
+    "commitAuthoredDate": "2021-10-03T04:53:08Z",
+    "commitCommitterDate": "2021-10-03T05:04:00Z",
+    "associatedPullRequests": [
+      {
+        "title": "Wx: Fix GS hotkeys losing values after reboot",
+        "url": "https://github.com/PCSX2/pcsx2/pull/4867"
+      }
+    ]
+  },
+  {
+    "fileName": "pcsx2-v1.7.0-dev-1888-g65ce152e2c-windows-x86.7z",
+    "versionNumber": "v1.7.1888",
+    "commitAuthor": "Mrlinkwii",
+    "commitFullSha": "65ce152e2cbcd5b4e5a5defc5283c143d7b4cbac",
+    "commitMessage": "Gamedb :add 'SingStar ABBA' entry",
+    "commitAuthoredDate": "2021-10-03T09:02:26Z",
+    "commitCommitterDate": "2021-10-03T09:16:21Z",
+    "associatedPullRequests": [
+      {
+        "title": "Gamedb :add 'SingStar ABBA' entry",
+        "url": "https://github.com/PCSX2/pcsx2/pull/4868"
+      }
+    ]
+  },
+  {
+    "fileName": "pcsx2-v1.7.0-dev-1889-gd0d58ded29-windows-x86.7z",
+    "versionNumber": "v1.7.1889",
+    "commitAuthor": "refractionpcsx2",
+    "commitFullSha": "d0d58ded2991880e4885ca306538c9bb81be0494",
+    "commitMessage": "CDVD: Redesign and fix the Fast CDVD speedhack\n\nRather than setting it to a constant cycle count, it just halves all cycle counts being passed to it which aren't full seeks.",
+    "commitAuthoredDate": "2021-10-03T09:49:38Z",
+    "commitCommitterDate": "2021-10-03T09:49:51Z",
+    "associatedPullRequests": []
+  },
+  {
+    "fileName": "pcsx2-v1.7.0-dev-1890-gc59db35ce2-windows-x86.7z",
+    "versionNumber": "v1.7.1890",
+    "commitAuthor": "lightningterror",
+    "commitFullSha": "c59db35ce25b9d005dd302b3d47e4c732d93a357",
+    "commitMessage": "GS: Fix OSD, Shade Boost slider values not showing.",
+    "commitAuthoredDate": "2021-10-02T16:13:35Z",
+    "commitCommitterDate": "2021-10-03T12:25:44Z",
+    "associatedPullRequests": [
+      {
+        "title": "GS: Fix OSD, Shade Boost slider values not showing.",
+        "url": "https://github.com/PCSX2/pcsx2/pull/4863"
+      }
+    ]
+  },
+  {
+    "fileName": "pcsx2-v1.7.0-dev-1891-g759b869c1c-windows-x86.7z",
+    "versionNumber": "v1.7.1891",
+    "commitAuthor": "Mrlinkwii",
+    "commitFullSha": "759b869c1c7215d57c6fae262cf8472c107f264b",
+    "commitMessage": "GameDB :add VU clamping to Monster Rancher 3",
+    "commitAuthoredDate": "2021-10-03T12:21:10Z",
+    "commitCommitterDate": "2021-10-03T16:00:02Z",
+    "associatedPullRequests": [
+      {
+        "title": "GameDB :add VU clamping to Monster Rancher 3",
+        "url": "https://github.com/PCSX2/pcsx2/pull/4869"
+      }
+    ]
+  },
+  {
+    "fileName": "pcsx2-v1.7.0-dev-1892-g8d92c0668c-windows-x86.7z",
+    "versionNumber": "v1.7.1892",
+    "commitAuthor": "refractionpcsx2",
+    "commitFullSha": "8d92c0668c5e2a1acebbff93dc4bf241944ff2f9",
+    "commitMessage": "CDVD: Implement Disc Swapping (#4860)\n\nInspired by the work by fldef, fixes up swapping support for ISO's and physical discs\r\n\r\nCDVD: Set the disk type to none/detecting when seeking.\r\nAlso disable the skip BIOS flag if we're not skipping the BIOS\r\nCDVD: Fix up swapping behaviour, Singstar etc",
+    "commitAuthoredDate": "2021-10-03T16:27:15Z",
+    "commitCommitterDate": "2021-10-03T16:27:15Z",
+    "associatedPullRequests": [
+      {
+        "title": "CDVD: Implement Disc Swapping",
+        "url": "https://github.com/PCSX2/pcsx2/pull/4860"
+      }
+    ]
+  },
+  {
+    "fileName": "pcsx2-v1.7.0-dev-1893-ga6e188692e-windows-x86.7z",
+    "versionNumber": "v1.7.1893",
+    "commitAuthor": "refractionpcsx2",
+    "commitFullSha": "a6e188692e9199e47d84ee6a0e0868c5aad18a0c",
+    "commitMessage": "Savestate version bump due to CDVD changes",
+    "commitAuthoredDate": "2021-10-03T19:14:55Z",
+    "commitCommitterDate": "2021-10-03T19:14:55Z",
+    "associatedPullRequests": []
+  },
+  {
+    "fileName": "pcsx2-v1.7.0-dev-1894-ge096814697-windows-x86.7z",
+    "versionNumber": "v1.7.1894",
+    "commitAuthor": "kojin",
+    "commitFullSha": "e09681469751a718d0cc5cde0d292d11edc88bab",
+    "commitMessage": "cmake: fix a bunch of override warnings",
+    "commitAuthoredDate": "2021-10-03T22:02:21Z",
+    "commitCommitterDate": "2021-10-03T22:27:19Z",
+    "associatedPullRequests": [
+      {
+        "title": "Fixup a bunch of warning spam",
+        "url": "https://github.com/PCSX2/pcsx2/pull/4873"
+      }
+    ]
+  },
+  {
+    "fileName": "pcsx2-v1.7.0-dev-1899-g1f386cf8bd-windows-x86.7z",
+    "versionNumber": "v1.7.1899",
+    "commitAuthor": "kojin",
+    "commitFullSha": "1f386cf8bd9dce4d689d65c6ae4bb6e97969bbc5",
+    "commitMessage": "recording: don't use NULL in wxChoice",
+    "commitAuthoredDate": "2021-10-03T20:38:23Z",
+    "commitCommitterDate": "2021-10-04T07:17:30Z",
+    "associatedPullRequests": [
+      {
+        "title": "FreeBSD fixup",
+        "url": "https://github.com/PCSX2/pcsx2/pull/4872"
+      }
+    ]
+  },
+  {
+    "fileName": "pcsx2-v1.7.0-dev-1903-g0ccad56ee6-windows-x86.7z",
+    "versionNumber": "v1.7.1903",
+    "commitAuthor": "Connor McLaughlin",
+    "commitFullSha": "0ccad56ee68d5d0382ee6aa7da9b81dd2de0e205",
+    "commitMessage": "Wx: Reinitialize folders after running first time wizard",
+    "commitAuthoredDate": "2021-10-05T10:15:49Z",
+    "commitCommitterDate": "2021-10-05T10:54:44Z",
+    "associatedPullRequests": [
+      {
+        "title": "Fix memory card saving and trace log setting loading/saving",
+        "url": "https://github.com/PCSX2/pcsx2/pull/4876"
+      }
+    ]
+  },
+  {
+    "fileName": "pcsx2-v1.7.0-dev-1906-gb8f4a8ffb3-windows-x86.7z",
+    "versionNumber": "v1.7.1906",
+    "commitAuthor": "refractionpcsx2",
+    "commitFullSha": "b8f4a8ffb37e5e60bea76241a6b862d225c9c1a2",
+    "commitMessage": "CDVD: Added simple rotational latency\n\nAlso removed DMA delay",
+    "commitAuthoredDate": "2021-10-04T17:21:45Z",
+    "commitCommitterDate": "2021-10-05T12:25:12Z",
+    "associatedPullRequests": [
+      {
+        "title": "CDVD: Time reads by sectors per second instead of bytes + Some rotational latency",
+        "url": "https://github.com/PCSX2/pcsx2/pull/4871"
+      }
+    ]
+  },
+  {
+    "fileName": "pcsx2-v1.7.0-dev-1907-g660c623dd0-windows-x86.7z",
+    "versionNumber": "v1.7.1907",
+    "commitAuthor": "lightningterror",
+    "commitFullSha": "660c623dd0f673d69aac6ee66bb9ee2966073469",
+    "commitMessage": "pad-linux: Update to latest controller database.",
+    "commitAuthoredDate": "2021-10-05T14:29:14Z",
+    "commitCommitterDate": "2021-10-05T14:29:14Z",
+    "associatedPullRequests": []
+  },
+  {
+    "fileName": "pcsx2-v1.7.0-dev-1908-g05dc48df07-windows-x86.7z",
+    "versionNumber": "v1.7.1908",
+    "commitAuthor": "refractionpcsx2",
+    "commitFullSha": "05dc48df07bde81d03c20304e696c69eee51d36f",
+    "commitMessage": "GameDBL Add VU clamping for Devil May Cry\nAlso fix a COP2 arrangement issue, not sure what it fixes.\n\nClamping previously wasn't needed as it was masked by a bug.\n\nFixes #4884",
+    "commitAuthoredDate": "2021-10-07T19:45:24Z",
+    "commitCommitterDate": "2021-10-07T19:45:24Z",
+    "associatedPullRequests": []
+  },
+  {
+    "fileName": "pcsx2-v1.7.0-dev-1909-g296911bef9-windows-x86.7z",
+    "versionNumber": "v1.7.1909",
+    "commitAuthor": "Mrlinkwii",
+    "commitFullSha": "296911bef9d4897a5f6d36db1dc93abdc155849f",
+    "commitMessage": "GUI: remove preset 4,5,6",
+    "commitAuthoredDate": "2021-10-05T14:13:49Z",
+    "commitCommitterDate": "2021-10-07T21:15:00Z",
+    "associatedPullRequests": [
+      {
+        "title": "GUI: remove presets 4,5,6",
+        "url": "https://github.com/PCSX2/pcsx2/pull/4882"
+      }
+    ]
+  },
+  {
+    "fileName": "pcsx2-v1.7.0-dev-1910-gae1f1599f6-windows-x86.7z",
+    "versionNumber": "v1.7.1910",
+    "commitAuthor": "refractionpcsx2",
+    "commitFullSha": "ae1f1599f61924a4ef906a3f446f43cdcfa4c701",
+    "commitMessage": "COP2: Fix reg allocation issue\n\nReally fixes Devil May Cry which was a bug hidden by clamping hidden by a bug, yeah i think that covers it all...",
+    "commitAuthoredDate": "2021-10-07T22:28:53Z",
+    "commitCommitterDate": "2021-10-07T22:29:04Z",
+    "associatedPullRequests": []
+  },
+  {
+    "fileName": "pcsx2-v1.7.0-dev-1911-ga2ba0ae818-windows-x86.7z",
+    "versionNumber": "v1.7.1911",
+    "commitAuthor": "lightningterror",
+    "commitFullSha": "a2ba0ae8186933360a7fdaa722db4c09ee253261",
+    "commitMessage": "gs-d3d11: Fix Shade Boost Contrast and Saturation swapped values.",
+    "commitAuthoredDate": "2021-10-08T11:31:17Z",
+    "commitCommitterDate": "2021-10-08T11:31:17Z",
+    "associatedPullRequests": []
+  },
+  {
+    "fileName": "pcsx2-v1.7.0-dev-1912-g2e0b8302dd-windows-x86.7z",
+    "versionNumber": "v1.7.1912",
+    "commitAuthor": "lightningterror",
+    "commitFullSha": "2e0b8302dd67f42caed167be9899a5640df7395d",
+    "commitMessage": "GS-hw: Add Slam Tennis to automatic mipmapping.\n\nClose #4866",
+    "commitAuthoredDate": "2021-10-08T18:57:39Z",
+    "commitCommitterDate": "2021-10-08T18:57:39Z",
+    "associatedPullRequests": []
+  },
+  {
+    "fileName": "pcsx2-v1.7.0-dev-1913-g575b88ac04-windows-x86.7z",
+    "versionNumber": "v1.7.1913",
+    "commitAuthor": "lightningterror",
+    "commitFullSha": "575b88ac04aae1e3027f830a51d0b9160111a103",
+    "commitMessage": "gs: Fix recent clamp range changes.\n\nArguments were in wrong order by mistake.\nLet's pretend that didn't happen.",
+    "commitAuthoredDate": "2021-10-09T00:40:30Z",
+    "commitCommitterDate": "2021-10-09T00:40:30Z",
+    "associatedPullRequests": []
+  },
+  {
+    "fileName": "pcsx2-v1.7.0-dev-1914-gef2c7ac480-windows-x86.7z",
+    "versionNumber": "v1.7.1914",
+    "commitAuthor": "kojin",
+    "commitFullSha": "ef2c7ac4806f804bc03d859d546408e16f6a5082",
+    "commitMessage": "gs-tc: propagate texture shuffle format on readback",
+    "commitAuthoredDate": "2021-10-08T00:30:01Z",
+    "commitCommitterDate": "2021-10-09T01:43:54Z",
+    "associatedPullRequests": [
+      {
+        "title": "gs-tc: propagate texture shuffle format on readback",
+        "url": "https://github.com/PCSX2/pcsx2/pull/4887"
+      }
+    ]
+  },
+  {
+    "fileName": "pcsx2-v1.7.0-dev-1915-g6ed00107cf-windows-x86.7z",
+    "versionNumber": "v1.7.1915",
+    "commitAuthor": "lightningterror",
+    "commitFullSha": "6ed00107cff3377cf033fb60605b36e0322ceea0",
+    "commitMessage": "GS: Revert be7e1163b4f7e3fe19876462fb26cd082ffb3ab4\n\nCompletely remove the code instead of commenting it out, seems to cause\nissues with several games.",
+    "commitAuthoredDate": "2021-10-08T16:35:21Z",
+    "commitCommitterDate": "2021-10-09T01:56:25Z",
+    "associatedPullRequests": [
+      {
+        "title": "GS: Revert be7e1163b4f7e3fe19876462fb26cd082ffb3ab4",
+        "url": "https://github.com/PCSX2/pcsx2/pull/4891"
+      }
+    ]
+  },
+  {
+    "fileName": "pcsx2-v1.7.0-dev-1916-ge597f68620-windows-x86.7z",
+    "versionNumber": "v1.7.1916",
+    "commitAuthor": "lightningterror",
+    "commitFullSha": "e597f68620ec0c8af58ba9d4f9fc2ee4af66a8f1",
+    "commitMessage": "pad-linux: Update to latest controller database.",
+    "commitAuthoredDate": "2021-10-10T13:07:26Z",
+    "commitCommitterDate": "2021-10-10T13:07:26Z",
+    "associatedPullRequests": []
+  },
+  {
+    "fileName": "pcsx2-v1.7.0-dev-1917-g4c7a251f6d-windows-x86.7z",
+    "versionNumber": "v1.7.1917",
+    "commitAuthor": "Mrlinkwii",
+    "commitFullSha": "4c7a251f6dca9de8a443088a1491cd886766c342",
+    "commitMessage": "GUI : remove EE Cycle Skipping 3",
+    "commitAuthoredDate": "2021-10-07T11:53:20Z",
+    "commitCommitterDate": "2021-10-10T15:52:28Z",
+    "associatedPullRequests": [
+      {
+        "title": "GUI : remove EE Cycle Skipping 3",
+        "url": "https://github.com/PCSX2/pcsx2/pull/4883"
+      }
+    ]
+  },
+  {
+    "fileName": "pcsx2-v1.7.0-dev-1918-g54d10d21ec-windows-x86.7z",
+    "versionNumber": "v1.7.1918",
+    "commitAuthor": "refractionpcsx2",
+    "commitFullSha": "54d10d21ecc752a7452402a299836903002dd2db",
+    "commitMessage": "CDVD: Simulate 1 sector read ahead",
+    "commitAuthoredDate": "2021-10-06T12:59:34Z",
+    "commitCommitterDate": "2021-10-10T23:16:00Z",
+    "associatedPullRequests": [
+      {
+        "title": "CDVD: Simulate 1 sector read ahead",
+        "url": "https://github.com/PCSX2/pcsx2/pull/4881"
+      }
+    ]
+  },
+  {
+    "fileName": "pcsx2-v1.7.0-dev-1919-gd36043c678-windows-x86.7z",
+    "versionNumber": "v1.7.1919",
+    "commitAuthor": "lightningterror",
+    "commitFullSha": "d36043c678f588979a5bc43a8becbfe58ff1e2c0",
+    "commitMessage": "GS Debugger: Show \"D3D11 HW\" only on windows.",
+    "commitAuthoredDate": "2021-10-10T15:43:25Z",
+    "commitCommitterDate": "2021-10-12T01:54:35Z",
+    "associatedPullRequests": [
+      {
+        "title": "GS Debugger: Show \"D3D11 HW\" only on windows.",
+        "url": "https://github.com/PCSX2/pcsx2/pull/4896"
+      }
+    ]
+  },
+  {
+    "fileName": "pcsx2-v1.7.0-dev-1920-g1b31eb9e4a-windows-x86.7z",
+    "versionNumber": "v1.7.1920",
+    "commitAuthor": "refractionpcsx2",
+    "commitFullSha": "1b31eb9e4a76b334f011ed53b26d84a72b0ece7f",
+    "commitMessage": "Common: Fix AT&T mixup in FastJmp code",
+    "commitAuthoredDate": "2021-10-12T21:46:15Z",
+    "commitCommitterDate": "2021-10-12T22:08:13Z",
+    "associatedPullRequests": [
+      {
+        "title": "Common: Fix AT&T mixup in FastJmp code",
+        "url": "https://github.com/PCSX2/pcsx2/pull/4900"
+      }
+    ]
+  },
+  {
+    "fileName": "pcsx2-v1.7.0-dev-1921-g45bb57a38c-windows-x86.7z",
+    "versionNumber": "v1.7.1921",
+    "commitAuthor": "Ziemas",
+    "commitFullSha": "45bb57a38c8afc9f2b795333ccbae834ae4514d3",
+    "commitMessage": "IOP Recompiler: Fix BIOS trace logging on 64bit",
+    "commitAuthoredDate": "2021-10-08T14:56:56Z",
+    "commitCommitterDate": "2021-10-13T20:42:51Z",
+    "associatedPullRequests": [
+      {
+        "title": "IOP Recompiler: Fix BIOS trace logging on 64bit",
+        "url": "https://github.com/PCSX2/pcsx2/pull/4890"
+      }
+    ]
+  },
+  {
+    "fileName": "pcsx2-v1.7.0-dev-1922-ga96f90076-windows-x86.7z",
+    "versionNumber": "v1.7.1922",
+    "commitAuthor": "refractionpcsx2",
+    "commitFullSha": "a96f90076080ede41f70f114fd164fcec7d2e18c",
+    "commitMessage": "COP2: Simplify reg allocation",
+    "commitAuthoredDate": "2021-10-13T20:46:48Z",
+    "commitCommitterDate": "2021-10-14T09:06:13Z",
+    "associatedPullRequests": [
+      {
+        "title": "COP2: Simplify reg allocation",
+        "url": "https://github.com/PCSX2/pcsx2/pull/4901"
+      }
+    ]
+  },
+  {
+    "fileName": "pcsx2-v1.7.0-dev-1923-gd736c8b281-windows-x86.7z",
+    "versionNumber": "v1.7.1923",
+    "commitAuthor": "refractionpcsx2",
+    "commitFullSha": "d736c8b281f6924c7825b51c6bc7160025eddba0",
+    "commitMessage": "CDVD: Use CD or DVD detecting types",
+    "commitAuthoredDate": "2021-10-14T20:51:31Z",
+    "commitCommitterDate": "2021-10-14T20:51:48Z",
+    "associatedPullRequests": []
+  },
+  {
+    "fileName": "pcsx2-v1.7.0-dev-1924-gf14c9e7ddd-windows-x86.7z",
+    "versionNumber": "v1.7.1924",
+    "commitAuthor": "refractionpcsx2",
+    "commitFullSha": "f14c9e7dddda88649cfabfa3d86161e36750e00a",
+    "commitMessage": "CDVD: Fix tray closure on No Disc",
+    "commitAuthoredDate": "2021-10-14T21:22:37Z",
+    "commitCommitterDate": "2021-10-14T21:22:37Z",
+    "associatedPullRequests": []
+  },
+  {
+    "fileName": "pcsx2-v1.7.0-dev-1925-g880107e72-windows-x86.7z",
+    "versionNumber": "v1.7.1925",
+    "commitAuthor": "refractionpcsx2",
+    "commitFullSha": "880107e72be757496d3b3be9647871df1d2abac8",
+    "commitMessage": "BIOS/FastBoot: If OSDConfig is written, turn off HLE\nFixes #4902\nSavestate bump, sorry.",
+    "commitAuthoredDate": "2021-10-14T21:27:02Z",
+    "commitCommitterDate": "2021-10-14T21:27:02Z",
+    "associatedPullRequests": []
+  },
+  {
+    "fileName": "pcsx2-v1.7.0-dev-1926-g9109751ff0-windows-x86.7z",
+    "versionNumber": "v1.7.1926",
+    "commitAuthor": "refractionpcsx2",
+    "commitFullSha": "9109751ff0c3de3fd3ceb57b4a37149be033205b",
+    "commitMessage": "CDVD: Insert step on swap for Generic Detect before type detect",
+    "commitAuthoredDate": "2021-10-14T22:16:48Z",
+    "commitCommitterDate": "2021-10-14T22:16:48Z",
+    "associatedPullRequests": []
+  },
+  {
+    "fileName": "pcsx2-v1.7.0-dev-1927-g934a7f70b-windows-x86.7z",
+    "versionNumber": "v1.7.1927",
+    "commitAuthor": "tellowkrinkle",
+    "commitFullSha": "934a7f70b2ecac6c296c53386a91c719df7a11f4",
+    "commitMessage": "Remove 30-day artifact retention on windows builds\n\nShould revert to default of 90 days",
+    "commitAuthoredDate": "2021-10-16T22:51:30Z",
+    "commitCommitterDate": "2021-10-16T22:55:24Z",
+    "associatedPullRequests": [
+      {
+        "title": "Remove 30-day artifact retention on windows builds",
+        "url": "https://github.com/PCSX2/pcsx2/pull/4908"
+      }
+    ]
+  },
+  {
+    "fileName": "pcsx2-v1.7.0-dev-1928-g6da938a714-windows-x86.7z",
+    "versionNumber": "v1.7.1928",
+    "commitAuthor": "Connor McLaughlin",
+    "commitFullSha": "6da938a7148fb8ef381ba67c5d6e5d32f8fd8d5e",
+    "commitMessage": "GS: Get rid of a bunch of warnings in GSDeviceOGL",
+    "commitAuthoredDate": "2021-10-17T02:10:26Z",
+    "commitCommitterDate": "2021-10-17T02:34:44Z",
+    "associatedPullRequests": [
+      {
+        "title": "GS: Get rid of a bunch of warnings in GSDeviceOGL",
+        "url": "https://github.com/PCSX2/pcsx2/pull/4909"
+      }
+    ]
+  },
+  {
+    "fileName": "pcsx2-v1.7.0-dev-1931-g3f6ac2fa68-windows-x86.7z",
+    "versionNumber": "v1.7.1931",
+    "commitAuthor": "Ziemas",
+    "commitFullSha": "3f6ac2fa68979fb58fb1292cb76aba951be1b8f0",
+    "commitMessage": "Debugger: Separate EE and IOP symbol maps\n\nPreviously they shared a single map which dosen't make sense.",
+    "commitAuthoredDate": "2021-10-07T18:18:44Z",
+    "commitCommitterDate": "2021-10-17T03:08:35Z",
+    "associatedPullRequests": [
+      {
+        "title": "Debugger: Separate symbol maps for EE and IOP",
+        "url": "https://github.com/PCSX2/pcsx2/pull/4885"
+      }
+    ]
+  },
+  {
+    "fileName": "pcsx2-v1.7.0-dev-1932-gf22ba886d9-windows-x86.7z",
+    "versionNumber": "v1.7.1932",
+    "commitAuthor": "TellowKrinkle",
+    "commitFullSha": "f22ba886d9233b5369edb3450f7cb09220aaf305",
+    "commitMessage": "Fix unparenthesized macro input",
+    "commitAuthoredDate": "2021-10-16T20:50:52Z",
+    "commitCommitterDate": "2021-10-17T03:17:58Z",
+    "associatedPullRequests": [
+      {
+        "title": "Fix unparenthesized macro input",
+        "url": "https://github.com/PCSX2/pcsx2/pull/4907"
+      }
+    ]
+  },
+  {
+    "fileName": "pcsx2-v1.7.0-dev-1933-g9044531a80-windows-x86.7z",
+    "versionNumber": "v1.7.1933",
+    "commitAuthor": "arcum42",
+    "commitFullSha": "9044531a8003024c5297f9cbcd1970298c281741",
+    "commitMessage": "Add the current profile to the status bar. (#4888)",
+    "commitAuthoredDate": "2021-10-17T08:19:18Z",
+    "commitCommitterDate": "2021-10-17T08:19:18Z",
+    "associatedPullRequests": [
+      {
+        "title": "Add the current profile to the status bar.",
+        "url": "https://github.com/PCSX2/pcsx2/pull/4888"
+      }
+    ]
+  },
+  {
+    "fileName": "pcsx2-v1.7.0-dev-1934-g44bc273590-windows-x86.7z",
+    "versionNumber": "v1.7.1934",
+    "commitAuthor": "Connor McLaughlin",
+    "commitFullSha": "44bc273590322ba2a9335af2bf3243d8a772db28",
+    "commitMessage": "microVU: Use uncached reg when clamping for FMAC instructions",
+    "commitAuthoredDate": "2021-10-17T08:05:31Z",
+    "commitCommitterDate": "2021-10-17T14:54:58Z",
+    "associatedPullRequests": [
+      {
+        "title": "microVU: Use uncached reg when clamping for FMAC instructions",
+        "url": "https://github.com/PCSX2/pcsx2/pull/4910"
+      }
+    ]
+  },
+  {
+    "fileName": "pcsx2-v1.7.0-dev-1935-gd875bff471-windows-x86.7z",
+    "versionNumber": "v1.7.1935",
+    "commitAuthor": "lightningterror",
+    "commitFullSha": "d875bff4715cddc2ec15e8dc7547ee298a1e98e1",
+    "commitMessage": "pad-linux: Update to latest controller database.",
+    "commitAuthoredDate": "2021-10-17T15:15:38Z",
+    "commitCommitterDate": "2021-10-17T15:15:38Z",
+    "associatedPullRequests": []
+  },
+  {
+    "fileName": "pcsx2-v1.7.0-dev-1936-gc363241fad-windows-x86.7z",
+    "versionNumber": "v1.7.1936",
+    "commitAuthor": "refractionpcsx2",
+    "commitFullSha": "c363241fad407362158e339a414f6c0e203faba7",
+    "commitMessage": "GS: Partial revert of #4891\nFixes performance problems with Baldur's Gate 2",
+    "commitAuthoredDate": "2021-10-17T14:24:29Z",
+    "commitCommitterDate": "2021-10-17T15:45:04Z",
+    "associatedPullRequests": [
+      {
+        "title": "GS: Partial revert of #4891",
+        "url": "https://github.com/PCSX2/pcsx2/pull/4912"
+      }
+    ]
+  },
+  {
+    "fileName": "pcsx2-v1.7.0-dev-1937-ga85247ff9f-windows-x86.7z",
+    "versionNumber": "v1.7.1937",
+    "commitAuthor": "refractionpcsx2",
+    "commitFullSha": "a85247ff9f9a1af90bf2bac1ca3edf4d79007351",
+    "commitMessage": "GIF: re-re-fix FIFO behaviour\n\nFixes #4915",
+    "commitAuthoredDate": "2021-10-18T11:14:21Z",
+    "commitCommitterDate": "2021-10-18T11:14:21Z",
+    "associatedPullRequests": []
+  },
+  {
+    "fileName": "pcsx2-v1.7.0-dev-1938-g6746578120-windows-x86.7z",
+    "versionNumber": "v1.7.1938",
+    "commitAuthor": "refractionpcsx2",
+    "commitFullSha": "6746578120ca130d82513ec69eff649d9954c8e5",
+    "commitMessage": "VU JIT: Include ADDi in flag calculations\n\nFixes #4916",
+    "commitAuthoredDate": "2021-10-18T11:32:44Z",
+    "commitCommitterDate": "2021-10-18T11:32:44Z",
+    "associatedPullRequests": []
+  },
+  {
+    "fileName": "pcsx2-v1.7.0-dev-1939-g5011b9ead5-windows-x86.7z",
+    "versionNumber": "v1.7.1939",
+    "commitAuthor": "refractionpcsx2",
+    "commitFullSha": "5011b9ead5181a7012fc132cbf29267ccce1022e",
+    "commitMessage": "EE: Cyclerate > 1 caused some cycles to be lost",
+    "commitAuthoredDate": "2021-10-19T19:09:07Z",
+    "commitCommitterDate": "2021-10-19T19:09:07Z",
+    "associatedPullRequests": []
+  },
+  {
+    "fileName": "pcsx2-v1.7.0-dev-1944-gc3e5b4225b-windows-x86.7z",
+    "versionNumber": "v1.7.1944",
+    "commitAuthor": "TellowKrinkle",
+    "commitFullSha": "c3e5b4225b06db769e9816bb924eb352ec1e3e2c",
+    "commitMessage": "GSdx:SW: Prevent thread ping-pong in software renderer sync",
+    "commitAuthoredDate": "2021-03-29T04:39:25Z",
+    "commitCommitterDate": "2021-10-19T20:04:15Z",
+    "associatedPullRequests": [
+      {
+        "title": "Spin before sleeping threads to reduce thread sleeps/wakes",
+        "url": "https://github.com/PCSX2/pcsx2/pull/4346"
+      }
+    ]
+  },
+  {
+    "fileName": "pcsx2-v1.7.0-dev-1945-g24e73b3134-windows-x86.7z",
+    "versionNumber": "v1.7.1945",
+    "commitAuthor": "refractionpcsx2",
+    "commitFullSha": "24e73b31344e8457be02912acd2630f16377d018",
+    "commitMessage": "Savestates: Add missing things from Savestates (#4917)\n\nSavestates: Add missing variables from Savestates",
+    "commitAuthoredDate": "2021-10-20T09:41:50Z",
+    "commitCommitterDate": "2021-10-20T09:41:50Z",
+    "associatedPullRequests": [
+      {
+        "title": "Savestates: Add missing things from Savestates",
+        "url": "https://github.com/PCSX2/pcsx2/pull/4917"
+      }
+    ]
+  },
+  {
+    "fileName": "pcsx2-v1.7.0-dev-1946-g7a330340ac-windows-x86.7z",
+    "versionNumber": "v1.7.1946",
+    "commitAuthor": "refractionpcsx2",
+    "commitFullSha": "7a330340acdc2864384a335a9be992e36e05d095",
+    "commitMessage": "GameDB: Port Iridium Runners patch, update fixes",
+    "commitAuthoredDate": "2021-10-20T19:15:46Z",
+    "commitCommitterDate": "2021-10-20T19:15:46Z",
+    "associatedPullRequests": []
+  },
+  {
+    "fileName": "pcsx2-v1.7.0-dev-1947-g0a72e7474-windows-x86.7z",
+    "versionNumber": "v1.7.1947",
+    "commitAuthor": "refractionpcsx2",
+    "commitFullSha": "0a72e7474e979953f295cc7507c1443b4a6b9803",
+    "commitMessage": "GameDB: Add gamefixes for Ruff Trigger",
+    "commitAuthoredDate": "2021-10-20T19:18:22Z",
+    "commitCommitterDate": "2021-10-20T19:18:22Z",
+    "associatedPullRequests": []
+  },
+  {
+    "fileName": "pcsx2-v1.7.0-dev-1948-g005f8c7d1d-windows-x86.7z",
+    "versionNumber": "v1.7.1948",
+    "commitAuthor": "Connor McLaughlin",
+    "commitFullSha": "005f8c7d1d416925b58e2ba4ab399611e735742d",
+    "commitMessage": "Config: Fix zoom/stretch options not updating on Apply",
+    "commitAuthoredDate": "2021-10-19T02:00:02Z",
+    "commitCommitterDate": "2021-10-21T11:22:31Z",
+    "associatedPullRequests": [
+      {
+        "title": "Config: Fix zoom/stretch options not updating on Apply",
+        "url": "https://github.com/PCSX2/pcsx2/pull/4920"
+      }
+    ]
+  },
+  {
+    "fileName": "pcsx2-v1.7.0-dev-1957-gb63f6e807c-windows-x86.7z",
+    "versionNumber": "v1.7.1957",
+    "commitAuthor": "TellowKrinkle",
+    "commitFullSha": "b63f6e807cc75d5bdab679ce1410746c70456327",
+    "commitMessage": "DEV9: Prevent saving invalid configurations",
+    "commitAuthoredDate": "2021-10-21T22:19:42Z",
+    "commitCommitterDate": "2021-10-23T01:39:44Z",
+    "associatedPullRequests": [
+      {
+        "title": "Convert DEV9 config dialog to wxWidgets",
+        "url": "https://github.com/PCSX2/pcsx2/pull/4421"
+      }
+    ]
+  },
+  {
+    "fileName": "pcsx2-v1.7.0-dev-1958-g05dfe0b0ac-windows-x86.7z",
+    "versionNumber": "v1.7.1958",
+    "commitAuthor": "Mrlinkwii",
+    "commitFullSha": "05dfe0b0ac7e1c123315d11d3064f67462215672",
+    "commitMessage": "GameDB:add 'VUKickstart' to 'Maken Shao' games (#4935)",
+    "commitAuthoredDate": "2021-10-24T22:40:09Z",
+    "commitCommitterDate": "2021-10-24T22:40:09Z",
+    "associatedPullRequests": [
+      {
+        "title": "GameDB:add 'VUKickstart' to 'Maken Shao' games ",
+        "url": "https://github.com/PCSX2/pcsx2/pull/4935"
+      }
+    ]
+  },
+  {
+    "fileName": "pcsx2-v1.7.0-dev-1959-gbb494af6b0-windows-x86.7z",
+    "versionNumber": "v1.7.1959",
+    "commitAuthor": "refractionpcsx2",
+    "commitFullSha": "bb494af6b0bb5bfcaa26cbec6b0b9cf2a853e373",
+    "commitMessage": "CDVD: Buffer up to 16 sectors",
+    "commitAuthoredDate": "2021-10-22T10:27:12Z",
+    "commitCommitterDate": "2021-10-25T08:42:00Z",
+    "associatedPullRequests": [
+      {
+        "title": "CDVD: Buffer up to 16 sectors",
+        "url": "https://github.com/PCSX2/pcsx2/pull/4927"
+      }
+    ]
+  },
+  {
+    "fileName": "pcsx2-v1.7.0-dev-1960-g0717353069-windows-x86.7z",
+    "versionNumber": "v1.7.1960",
+    "commitAuthor": "lightningterror",
+    "commitFullSha": "071735306958330ea6284350a1f6962bcd278915",
+    "commitMessage": "Core: Few more warnings fixup.",
+    "commitAuthoredDate": "2021-10-23T18:12:29Z",
+    "commitCommitterDate": "2021-10-25T18:23:55Z",
+    "associatedPullRequests": [
+      {
+        "title": "Core: Few more warnings fixup.",
+        "url": "https://github.com/PCSX2/pcsx2/pull/4931"
+      }
+    ]
+  },
+  {
+    "fileName": "pcsx2-v1.7.0-dev-1961-g4273b6ce37-windows-x86.7z",
+    "versionNumber": "v1.7.1961",
+    "commitAuthor": "TheLastRar",
+    "commitFullSha": "4273b6ce379d43b267a948e715bb85eb9e1ace27",
+    "commitMessage": "DEV9: Fix Windows config saving/loading",
+    "commitAuthoredDate": "2021-10-24T01:03:58Z",
+    "commitCommitterDate": "2021-10-25T18:31:39Z",
+    "associatedPullRequests": [
+      {
+        "title": "DEV9: Fix Windows config saving/loading",
+        "url": "https://github.com/PCSX2/pcsx2/pull/4933"
+      }
+    ]
+  },
+  {
+    "fileName": "pcsx2-v1.7.0-dev-1965-gd70631477-windows-x86.7z",
+    "versionNumber": "v1.7.1965",
+    "commitAuthor": "kojin",
+    "commitFullSha": "d70631477def588191681dfe55d0dcb9c973017b",
+    "commitMessage": "gs: remove unused path3 hack",
+    "commitAuthoredDate": "2021-10-21T00:25:15Z",
+    "commitCommitterDate": "2021-10-25T18:35:37Z",
+    "associatedPullRequests": [
+      {
+        "title": "gs: gsstate (the old gsdx one) cleanup",
+        "url": "https://github.com/PCSX2/pcsx2/pull/4919"
+      }
+    ]
+  },
+  {
+    "fileName": "pcsx2-v1.7.0-dev-1966-gbfbe86a3d5-windows-x86.7z",
+    "versionNumber": "v1.7.1966",
+    "commitAuthor": "refractionpcsx2",
+    "commitFullSha": "bfbe86a3d5d6e0abc52116b903529f397a5b5bee",
+    "commitMessage": "COP2: Tighten LQC2/SQC2 sync\n\nFixes some small glitches with the R&C games",
+    "commitAuthoredDate": "2021-10-25T23:05:46Z",
+    "commitCommitterDate": "2021-10-25T23:05:46Z",
+    "associatedPullRequests": []
+  },
+  {
+    "fileName": "pcsx2-v1.7.0-dev-1968-g0fed1cbedd-windows-x86.7z",
+    "versionNumber": "v1.7.1968",
+    "commitAuthor": "Ty Lamontagne",
+    "commitFullSha": "0fed1cbeddcd4100d2cd0ab70c3c6905f0b1885f",
+    "commitMessage": "clang-format: pcsx2/CDVD/CDVD.cpp",
+    "commitAuthoredDate": "2021-10-18T03:20:08Z",
+    "commitCommitterDate": "2021-10-26T08:56:41Z",
+    "associatedPullRequests": [
+      {
+        "title": "CDVD: Reset VM on sceCdPowerOff writes",
+        "url": "https://github.com/PCSX2/pcsx2/pull/4913"
+      }
+    ]
+  },
+  {
+    "fileName": "pcsx2-v1.7.0-dev-1969-g3705054095-windows-x86.7z",
+    "versionNumber": "v1.7.1969",
+    "commitAuthor": "Ty Lamontagne",
+    "commitFullSha": "370505409571a80bef7752e606333ff8eb62de12",
+    "commitMessage": "Debugger: Support multi-line assembling",
+    "commitAuthoredDate": "2021-10-21T22:05:20Z",
+    "commitCommitterDate": "2021-10-26T14:24:52Z",
+    "associatedPullRequests": [
+      {
+        "title": "Debugger: Support multi-line assembling",
+        "url": "https://github.com/PCSX2/pcsx2/pull/4926"
+      }
+    ]
+  },
+  {
+    "fileName": "pcsx2-v1.7.0-dev-1976-g7ac56a0d11-windows-x86.7z",
+    "versionNumber": "v1.7.1976",
+    "commitAuthor": "lightningterror",
+    "commitFullSha": "7ac56a0d11c235dd665096d3a0f59fd7c1604c9d",
+    "commitMessage": "emitter: Fix Wsign-compare warnings.",
+    "commitAuthoredDate": "2021-10-26T20:11:04Z",
+    "commitCommitterDate": "2021-10-26T23:00:38Z",
+    "associatedPullRequests": [
+      {
+        "title": "Misc: Fix more warnings.",
+        "url": "https://github.com/PCSX2/pcsx2/pull/4943"
+      }
+    ]
+  },
+  {
+    "fileName": "pcsx2-v1.7.0-dev-1977-g23283b7f0a-windows-x86.7z",
+    "versionNumber": "v1.7.1977",
+    "commitAuthor": "lightningterror",
+    "commitFullSha": "23283b7f0ade60511761e9b95a7c4560079875e5",
+    "commitMessage": "pad-linux: Update to latest controller database.",
+    "commitAuthoredDate": "2021-10-26T23:50:27Z",
+    "commitCommitterDate": "2021-10-26T23:50:27Z",
+    "associatedPullRequests": []
+  },
+  {
+    "fileName": "pcsx2-v1.7.0-dev-1978-g0dea6dbc9d-windows-x86.7z",
+    "versionNumber": "v1.7.1978",
+    "commitAuthor": "TheLastRar",
+    "commitFullSha": "0dea6dbc9d65e73cb97fc326093540e88f9ba15f",
+    "commitMessage": "DEV9: DNS logger crash fix",
+    "commitAuthoredDate": "2021-10-25T00:42:15Z",
+    "commitCommitterDate": "2021-10-28T17:48:20Z",
+    "associatedPullRequests": [
+      {
+        "title": "DEV9: DNS Logger Crash fix",
+        "url": "https://github.com/PCSX2/pcsx2/pull/4940"
+      }
+    ]
+  },
+  {
+    "fileName": "pcsx2-v1.7.0-dev-1980-g52eab49359-windows-x86.7z",
+    "versionNumber": "v1.7.1980",
+    "commitAuthor": "refractionpcsx2",
+    "commitFullSha": "52eab493591137d830b45337e04c75ff525a31f9",
+    "commitMessage": "Merge branch 'master' of https://github.com/PCSX2/pcsx2",
+    "commitAuthoredDate": "2021-10-28T19:03:03Z",
+    "commitCommitterDate": "2021-10-28T19:03:03Z",
+    "associatedPullRequests": []
+  },
+  {
+    "fileName": "pcsx2-v1.7.0-dev-1992-g9d2bdd5681-windows-x86.7z",
+    "versionNumber": "v1.7.1992",
+    "commitAuthor": "TellowKrinkle",
+    "commitFullSha": "9d2bdd5681022b2010133082e06c701fabfb6d0e",
+    "commitMessage": "ContextAGL main thread & wx compatibility fixes",
+    "commitAuthoredDate": "2021-10-17T04:23:03Z",
+    "commitCommitterDate": "2021-10-30T01:00:21Z",
+    "associatedPullRequests": [
+      {
+        "title": "Replace GSWnd with GL context wrappers, remove pDsp",
+        "url": "https://github.com/PCSX2/pcsx2/pull/4905"
+      }
+    ]
+  },
+  {
+    "fileName": "pcsx2-v1.7.0-dev-1995-g20ab4dbf20-windows-x86.7z",
+    "versionNumber": "v1.7.1995",
+    "commitAuthor": "Connor McLaughlin",
+    "commitFullSha": "20ab4dbf20584042ae0c0bae937bd32e65c3bfbb",
+    "commitMessage": "GL/StreamBuffer: Use partial instead of exact match for NVIDIA\n\nIt's \"NVIDIA Corporation\" on Macs, and on Windows we don't support any\nGL3 GPUs anyway.",
+    "commitAuthoredDate": "2021-10-30T06:55:35Z",
+    "commitCommitterDate": "2021-10-30T15:01:55Z",
+    "associatedPullRequests": [
+      {
+        "title": "GS: Use stream buffer for vertices/indices/uniforms",
+        "url": "https://github.com/PCSX2/pcsx2/pull/4906"
+      }
+    ]
+  },
+  {
+    "fileName": "pcsx2-v1.7.0-dev-1996-g6348fe7362-windows-x86.7z",
+    "versionNumber": "v1.7.1996",
+    "commitAuthor": "refractionpcsx2",
+    "commitFullSha": "6348fe7362675ae6f164611cfa381f245d22895a",
+    "commitMessage": "CDVD: Fix handling of Dual Layer disc latencies\n\nFixes #4962",
+    "commitAuthoredDate": "2021-10-30T19:49:03Z",
+    "commitCommitterDate": "2021-10-30T19:49:03Z",
+    "associatedPullRequests": []
+  },
+  {
+    "fileName": "pcsx2-v1.7.0-dev-1997-gc84e56329f-windows-x86.7z",
+    "versionNumber": "v1.7.1997",
+    "commitAuthor": "refractionpcsx2",
+    "commitFullSha": "c84e56329f89636eae85ac7f8fd11f07b49ce795",
+    "commitMessage": "SPU2: Don't read sound input area if ADMA disabled",
+    "commitAuthoredDate": "2021-10-31T02:24:35Z",
+    "commitCommitterDate": "2021-10-31T02:24:35Z",
+    "associatedPullRequests": []
+  },
+  {
+    "fileName": "pcsx2-v1.7.0-dev-1998-g2a20119fbb-windows-x86.7z",
+    "versionNumber": "v1.7.1998",
+    "commitAuthor": "lightningterror",
+    "commitFullSha": "2a20119fbb2100c53a09c42fad46a29ace3c7989",
+    "commitMessage": "GSRenderer: Fix Wunused-variable warning.",
+    "commitAuthoredDate": "2021-10-31T20:12:14Z",
+    "commitCommitterDate": "2021-10-31T20:12:14Z",
+    "associatedPullRequests": []
+  },
+  {
+    "fileName": "pcsx2-v1.7.0-dev-2000-g78881113b9-windows-x86.7z",
+    "versionNumber": "v1.7.2000",
+    "commitAuthor": "refractionpcsx2",
+    "commitFullSha": "78881113b9c19fbd9509abb654a40c850f232b41",
+    "commitMessage": "GS: Further state cleanup + fixes for older dump compatibility",
+    "commitAuthoredDate": "2021-10-28T19:04:53Z",
+    "commitCommitterDate": "2021-10-31T23:49:39Z",
+    "associatedPullRequests": [
+      {
+        "title": "GS: Further state cleanup + fixes for older dump compatibility",
+        "url": "https://github.com/PCSX2/pcsx2/pull/4952"
+      }
+    ]
+  },
+  {
+    "fileName": "pcsx2-v1.7.0-dev-2001-gb5eed53db0-windows-x86.7z",
+    "versionNumber": "v1.7.2001",
+    "commitAuthor": "refractionpcsx2",
+    "commitFullSha": "b5eed53db0713555b2d331f69225a2074f3e6f46",
+    "commitMessage": "CDVD: Fix rotational delay, don't apply to seek commands.\n\nFixes #4955",
+    "commitAuthoredDate": "2021-11-01T12:07:42Z",
+    "commitCommitterDate": "2021-11-01T12:07:42Z",
+    "associatedPullRequests": []
+  },
+  {
+    "fileName": "pcsx2-v1.7.0-dev-2002-ga494e05fd9-windows-x86.7z",
+    "versionNumber": "v1.7.2002",
+    "commitAuthor": "refractionpcsx2",
+    "commitFullSha": "a494e05fd943f348d847fd358cf6bd6a875d6faa",
+    "commitMessage": "CDVD: Left a debug message enabled.",
+    "commitAuthoredDate": "2021-11-01T12:23:31Z",
+    "commitCommitterDate": "2021-11-01T12:23:31Z",
+    "associatedPullRequests": []
+  },
+  {
     "fileName": "pcsx2-v1.7.0-dev-1-g8f3b908e3-windows-x86.7z",
     "versionNumber": "v1.7.1",
     "commitAuthor": "lightningterror",
